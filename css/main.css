@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?5q0avi');
+  src:  url('../fonts/icomoon.eot?5q0avi#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?5q0avi') format('truetype'),
+    url('../fonts/icomoon.woff?5q0avi') format('woff'),
+    url('../fonts/icomoon.svg?5q0avi#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #ffffff;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background: url(../img/bg.png) no-repeat center center;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.tabs-content{
+	margin: auto;
+	background: #212534;
+}
+.faecry{
+	padding: 50px 40px;
+}
+
+.icon-star-empty:before {
+  content: "\e9d7";  
+}
+
+.icon-star-full:before {
+  content: "\e9d9";
+  color: #f7bf16;
+}
+
+.price-star{
+	list-style: none;
+	display: inline-flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	justify-content: space-around;
+	clear: both;
+}
+.price-star li span{
+	-webkit-align-content: space-around;
+	        align-content: space-around;
+}
+
+.about{
+    display: inline-block;
+    width: 55%;
+    padding-left: 40px;
+}
+
+#tabs {
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+	}
+
+#tabs .tabs {
+	overflow: hidden; 
+	margin: 30px 0 0 0;
+	padding: 60px 55px 40px;
+    background: #2b3040;
+	}
+
+#tabs .tabs li {
+	float: left;
+	list-style: none;
+	}
+
+#tabs .tabs li a {
+    display: block;
+    padding: 8px 20px;
+    font-size: 16px;    
+    color: #8d91a3;
+    text-decoration: none;
+	}
+
+#tabs .tabs li a.active,
+#tabs .tabs li a:hover {
+	text-decoration: underline;
+	color: #ffffff;
+	}
+
